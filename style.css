@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: tomato;
+    padding-bottom: 30px;
+}
+
+header {
+    color: white;
+    padding: 30px 0 20px 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav, article, aside  {
+    width: 30%;
+    float: left;
+}
+
+.main-container {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px 0 10px;
+}
+
+ul li.active {
+    background-color: white;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+li.menu-item {
+    background-color: tomato;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: center;
+}
+
+aside {
+    background-color: #e3b9b2;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+footer {
+    background-color: lightgray;
+    color: tomato;
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 90%;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 450px) {
+    nav, article, aside {
+        float: none;
+        width: 80%;
+        margin:auto;
+    }
+    main {
+        padding-top: 10px;
+    }
+    header {
+        text-align: center;
+    }
+}
